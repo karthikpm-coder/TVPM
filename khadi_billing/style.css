@@ -1,0 +1,105 @@
+ body {
+            font-family: Arial, sans-serif;
+            color: rgb(20, 19, 19);
+            margin: 20px;
+            background-color: #c6c1c1;
+        }
+        .container {
+           max-width: 700px;
+           max-height: fit-content;            
+            margin: auto;
+            padding: 20px;
+            background-color: rgb(248, 247, 244);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;  
+        }
+        input {
+            width: 65%;
+            padding: 8px;
+            justify-content:center;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #292121;
+        }
+        .result {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .result p {
+            margin: 5px 0;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+
+        }
+        #home{
+            background-color: #f12997;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 5px;
+            border: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            
+            cursor: pointer;
+        }
+        #home:hover{
+            background-color: rgb(146, 8, 93);
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #printButton {
+            background-color: #0c69cc;
+        }
+        #printButton:hover {
+            background-color: #0056b3;
+        }
+
+        /* Styles for the print section to display horizontally */
+        #printSection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+        #printTable {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #printTable th, #printTable td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        #printTable th {
+            background-color: #f2f2f2;
+        }
+        #bill{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-weight: 800px;
+        }
+        #billDate{
+            margin-left: 400px;
+
+        }

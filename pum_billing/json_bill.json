@@ -1,0 +1,6 @@
+{
+    "products": [
+        {"product_code": "001", "price": 100, "qty": 2, "discount": 10},
+        {"product_code": "002", "price": 200, "qty": 1, "discount": 5}
+    ]
+}
